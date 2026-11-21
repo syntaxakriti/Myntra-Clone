@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #ffffff;
+    color: #282c3f;
+}
+
+/* NAVIGATION BAR */
+.navbar {
+    height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 4%;
+    background: white;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
